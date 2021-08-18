@@ -2,6 +2,12 @@
   "name": "markdown-editor",
   "version": "1.0.0",
   "scripts": {
-    "start": "echo 'Hello! package.json'"
+    "start": "echo 'Hello! package.json'",
+    "release:patch": "standard-version --release-as patch",
+    "release:minor": "standard-version --release-as minor",
+    "release:major": "standard-version --release-as major"
+  },
+  "devDependencies": {
+    "git-cz": "^4.7.6"
   }
 }
